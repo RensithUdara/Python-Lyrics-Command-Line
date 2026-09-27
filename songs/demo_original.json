@@ -1,0 +1,49 @@
+{
+  "title": "Neon After Midnight",
+  "artist": "PyLyrics Demo",
+  "audio": null,
+  "lyrics": [
+    {
+      "time": "00:00.00",
+      "text": "The terminal wakes in electric blue",
+      "duration": 2.4,
+      "animation": "typewriter",
+      "color": "bright_cyan"
+    },
+    {
+      "time": "00:03.00",
+      "text": "Every little cursor knows what to do",
+      "duration": 2.4,
+      "animation": "word",
+      "color": "bright_magenta"
+    },
+    {
+      "time": "00:06.00",
+      "text": "Lines drift in slowly, glowing on glass",
+      "duration": 2.8,
+      "animation": "center_reveal",
+      "color": "bright_yellow"
+    },
+    {
+      "time": "00:09.30",
+      "text": "A tiny stage where the seconds pass",
+      "duration": 2.8,
+      "animation": "typewriter",
+      "color": "green"
+    },
+    {
+      "time": "00:12.80",
+      "text": "Build the rhythm, let the letters fall",
+      "duration": 2.8,
+      "animation": "word",
+      "color": "cyan"
+    },
+    {
+      "time": "00:16.00",
+      "text": "One bright line, then silence after all",
+      "duration": 3.0,
+      "animation": "fade",
+      "color": "bright_white"
+    }
+  ]
+}
