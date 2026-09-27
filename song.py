@@ -96,8 +96,8 @@ def soulful_typing(text: str, color: str, delay: float = 0.05, indent: int = 0) 
     print()
 
 
-def centered_typing(text: str, color: str, delay: float, pause: float) -> None:
-    indent = max(0, (terminal_width() - len(text)) // 2)
+def left_typing(text: str, color: str, delay: float, pause: float) -> None:
+    indent = 8
     soulful_typing(text, color, delay, indent)
     time.sleep(pause)
 
@@ -126,7 +126,7 @@ def play(mode: str = "singlish") -> None:
         color_index += 1
         delay = 0.035 if len(line) > 34 else 0.048
         pause = 0.95 if line.endswith("vagee") or line.endswith("nodhanim") else 0.55
-        centered_typing(line, color, delay, pause)
+        left_typing(line, color, delay, pause)
         print()
 
 
