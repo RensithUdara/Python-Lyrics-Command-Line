@@ -30,16 +30,16 @@ For the simple Instagram-reel-style terminal print:
 python song.py
 ```
 
-The reel script defaults to Singlish. You can also run:
+The reel script currently uses the Singlish lyrics in `song.py`. Run:
 
 ```powershell
-python song.py --mode sinhala
-python song.py --mode both
+python song.py
 ```
 
 On Windows, use the included CMD launchers if Sinhala text looks broken:
 
 ```cmd
+run_bowitiya.cmd
 run_sinhala.cmd
 run_singlish.cmd
 ```
@@ -75,4 +75,4 @@ Add JSON files to `songs/`:
 
 You can also drop `.lrc` files in `songs/`. They will appear in the song library automatically.
 
-Use lyrics you wrote or have permission to use. The included Sinhala/Singlish lyrics are original demo text. Replace them with your own song lines in `song.py` or add a new JSON file in `songs/`.
+Use lyrics you wrote or have permission to use. Replace the lines in `song.py` or add a new JSON file in `songs/`.
