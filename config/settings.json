@@ -3,6 +3,7 @@
     "theme": "neon",
     "clear_screen": true,
     "panel_width": 74,
+    "alignment": "left",
     "show_progress": true
   },
   "animation": {
