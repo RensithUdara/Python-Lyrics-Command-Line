@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 from pathlib import Path
 
+import song
 from src.audio_player import AudioPlayer
 from src.config import load_settings
 from src.lyric_engine import LyricEngine
@@ -40,7 +41,12 @@ def run_demo(manager: SongManager, ui: TerminalUI, settings: dict) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser(description="Terminal lyrics animation player.")
     parser.add_argument("--demo", action="store_true", help="Play the first available song immediately.")
+    parser.add_argument("--reel", action="store_true", help="Play the simple reel-style ANSI print demo.")
     args = parser.parse_args()
+
+    if args.reel:
+        song.play()
+        return
 
     settings = load_settings(ROOT / "config" / "settings.json")
     ui = TerminalUI(settings=settings)
