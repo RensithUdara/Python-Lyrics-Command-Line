@@ -1,0 +1,20 @@
+{
+  "display": {
+    "theme": "neon",
+    "clear_screen": true,
+    "panel_width": 74,
+    "show_progress": true
+  },
+  "animation": {
+    "default_style": "typewriter",
+    "typing_speed": 0.035,
+    "word_speed": 0.18,
+    "frame_delay": 0.06,
+    "intro_seconds": 1.2,
+    "ending_seconds": 1.4
+  },
+  "audio": {
+    "enabled": false,
+    "volume": 0.8
+  }
+}
