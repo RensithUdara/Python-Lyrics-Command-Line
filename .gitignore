@@ -4,5 +4,3 @@ __pycache__/
 audio/*.mp3
 audio/*.wav
 audio/*.ogg
-config.bat
-node_modules
