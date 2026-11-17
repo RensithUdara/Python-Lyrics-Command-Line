@@ -4,3 +4,7 @@ __pycache__/
 audio/*.mp3
 audio/*.wav
 audio/*.ogg
+.env
+.env.*
+.env.local
+.env.production
